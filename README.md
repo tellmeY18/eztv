@@ -4,6 +4,11 @@
 <p align="center">f@#k netflix use EZTV a tool which search magnet links and stream it with Webtorrent</p>
 
 ##
+<p align="center">
+<img src="./animated.gif" alt="Video Preview" width="500px">
+</p>
+
+##
 
 > Watch this video to understand - [bugswriter's notflix](https://youtu.be/FbE19_omaWY)
 
