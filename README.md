@@ -23,17 +23,16 @@ For scraping script use simple gnu utils like sed, awk, paste, cut.
 cURL **EZTV** to your **$PATH** and give execute permissions.
 
 ```sh
-$ sudo curl -sL "https://github.com/tellmeY18/eztv.git" -o /usr/local/bin/
-$ sudo chmod +x /usr/local/bin/eztv
+$ sudo curl -sL "https://github.com/tellmeY18/eztv.git" -o /usr/bin/
+$ sudo chmod +x /usr/bin/eztv
 ```
 - To update, just do `curl` again, no need to `chmod` anymore.
-- To uninstall, simply remove `EZTV` from your **$PATH**, for example `sudo rm -f /usr/local/bin/eztv.
+- To uninstall, simply remove `EZTV` from your **$PATH**, for example `sudo rm -f /usr/bin/eztv.
 
 ## License
 This project is licensed under [GPL-3.0](https://raw.githubusercontent.com/Illumina/licenses/master/gpl-3.0.txt).
 
 ## Bugs that needs fixing
--some issues with path. 
 -old or not that popular shows tend to be slow to download
 
 ## To Do
