@@ -1,35 +1,40 @@
-<h1 align="center">NOTFLIX</h1>
-<p align="center">f@#k netflix use notflix a tool which search magnet links and stream it with peerflix</p>
+<h1 align="center">just working Fork of notflix</h1>
+
+<h1 align="center">EZTV</h1>
+<p align="center">f@#k netflix use EZTV a tool which search magnet links and stream it with Webtorrent</p>
 
 ##
-<p align="center">
-<img src="./preview.gif" alt="Video Preview" width="500px">
-</p>
 
 > Watch this video to understand - [bugswriter's notflix](https://youtu.be/FbE19_omaWY)
 
 ### How does this work?
 
-This is a shell script. It scape 1337x and get the magnet link.
-After this it use [peerflix](https://github.com/mafintosh/peerflix) to stream the video from magnet link.
+This is a shell script. It scape eztv.re and get the magnet link.
+After this it use [Webtorrent] to stream the video from magnet link.
 For scraping script use simple gnu utils like sed, awk, paste, cut.
 
 ## Requirements
 
-* [peerflix](https://github.com/mafintosh/peerflix) - A tool to stream torrent. `sudo npm install peerflix -g`
-
+* [Webtorrent](https://github.com/webtorrent/webtorrent) - A tool to stream torrent. `sudo npm install webtorrent -g`
+* [Protonvpn-cli-ng](https://github.com/ohdearaugustin/protonvpn-cli-ng) - A Linux CLI for ProtonVPN. Written in Python. `sudo pip3 install protonvpn-cli`
 ## Installation
 
 ### cURL
-cURL **notflix** to your **$PATH** and give execute permissions.
+cURL **EZTV** to your **$PATH** and give execute permissions.
 
 ```sh
-$ sudo curl -sL "https://raw.githubusercontent.com/Bugswriter/notflix/master/notflix" -o /usr/local/bin/notflix
-$ sudo chmod +x /usr/local/bin/notflix
+$ sudo curl -sL "https://github.com/tellmeY18/eztv.git" -o /usr/local/bin/
+$ sudo chmod +x /usr/local/bin/eztv
 ```
 - To update, just do `curl` again, no need to `chmod` anymore.
-- To uninstall, simply remove `notflix` from your **$PATH**, for example `sudo rm -f /usr/local/bin/notflix.
+- To uninstall, simply remove `EZTV` from your **$PATH**, for example `sudo rm -f /usr/local/bin/eztv.
 
 ## License
 This project is licensed under [GPL-3.0](https://raw.githubusercontent.com/Illumina/licenses/master/gpl-3.0.txt).
 
+## Bugs that needs fixing
+-some issues with path. 
+-old or not that popular shows tend to be slow to download
+
+## To Do
+-add yts.mx support for streaming movies
