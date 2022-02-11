@@ -21,7 +21,6 @@ For scraping script use simple gnu utils like sed, awk, paste, cut.
 ## Requirements
 
 * [Webtorrent](https://github.com/webtorrent/webtorrent) - A tool to stream torrent. `sudo npm install webtorrent -g`
-* [Protonvpn-cli-ng](https://github.com/ohdearaugustin/protonvpn-cli-ng) - A Linux CLI for ProtonVPN. Written in Python. `sudo pip3 install protonvpn-cli`
 ## Installation
 
 ### cURL
@@ -37,8 +36,3 @@ $ sudo chmod +x /usr/bin/eztv
 ## License
 This project is licensed under [GPL-3.0](https://raw.githubusercontent.com/Illumina/licenses/master/gpl-3.0.txt).
 
-## Bugs that needs fixing
--old or not that popular shows tend to be slow to download
-
-## To Do
--add yts.mx support for streaming movies
